@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div.ms-auto button, .btn1{
+    background-color: rgb(48, 172, 145);
+}
+button.lbt span{
+   font-weight: bolder;
+}
+div#canva2 ul li a{
+    font-weight: bolder;
+}
+div#formsearch button{
+    background-color: rgb(48, 172, 145);
+}
+div.cont3 div.card{
+    box-shadow: 0px 0px 3px 1px rgb(134, 132, 132);
+}
+ul#navlinks li.nav-item a.nav-link:active{
+    background-color: rgb(121, 120, 120);
+    color: white;
+}
+div.cont4{
+    box-shadow: 0px 0px 1px 1px rgb(134, 132, 132);
+}
+#footer{
+    background-color: #e0e0e0;
+    padding: 10px 0px;
+}
+#footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#footer ul a{
+    color: #999;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+#footer .social{
+    text-align: left;
+}
+#footer .social a{
+    margin: 0 10px 0 0;
+    display: inline-block;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #555555;
+    text-decoration: none;
+}
+#footer .social a:hover{
+    color: #dedede;
+    background-color: #777777;
+
+}
+.breadcrumb{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+}
+.breadcrumb > li + li::before{
+    content: ">\00a0";
+    color: #ccc;
+}
+
+a.nav-link:hover{
+    background-color: rgb(229, 226, 226);
+    color: white;
+}
+#content .card .sidebar-menu{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+#content .card .sidebar-menu ul{
+    margin-bottom: 20px;
+}
+#content .card .sidebar-menu ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#content .card .sidebar-menu h3{
+    padding: 5px 0px;
+    margin: 0px;
+}

@@ -1,0 +1,20 @@
+body{   margin-top: 100px;}
+#wrapper{    padding-left: 0px;}
+#page-wrapper{    width: 100%;    padding: 0;    background: #f9f9f9;}
+@media(min-width: 768px){    body{        margin-top: 50px;        color: red;    }
+    #page-wrapper{        padding: 10px;    }
+}
+.top-nav{   padding: 0 15px;}
+
+.top-nav>li{    display: inline-block;}
+
+.top-nav>li>a{    color: #999999;    line-height: 20px;    padding-top: 15px;    padding-bottom: 15px;}
+.top-nav>li>a:hover, .top-nav>li>a:focus{    color: #000000;}
+@media(min-width: 768px){    .side-nav{        position: fixed;        top: 51px;        bottom: 0;        width: 255px;        overflow-y: auto;        overflow-x: hidden;        background-color: #222222;        padding-bottom: 40px;        border-radius: 0;    }
+    .side-nav>li>a{        width: 255px;        color: white;    }
+    .side-nav>li>a:hover,  .side-nav>li>a:focus{        outline: none;        background-color: #000000 !important;        color: white;    }
+}
+.side-nav{    padding: 0;}
+.side-nav>li>ul>li>a{    padding: 10px 15px 10px 38px;    text-decoration: none;    color: #999;    display: block;}
+.side-nav>li>ul>li>a:hover, .side-nav>li>ul>li>a:focus{    color: #ffffff;}
+div.huge{    font-size: 40px;   line-height: normal;}
